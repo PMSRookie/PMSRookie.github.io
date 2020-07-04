@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pmsrookie.github.io/"/>
-  <updated>2020-06-29T14:44:38.000Z</updated>
+  <updated>2020-07-04T14:10:38.000Z</updated>
   <id>https://pmsrookie.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pmsrookie.github.io/2020/06/29/hexo%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9/"/>
     <id>https://pmsrookie.github.io/2020/06/29/hexo%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9/</id>
     <published>2020-06-29T14:44:38.000Z</published>
-    <updated>2020-06-29T14:44:38.000Z</updated>
+    <updated>2020-07-04T14:10:38.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="hexo-主题修改"><a href="#hexo-主题修改" class="headerlink" title="hexo 主题修改"></a>hexo 主题修改</h1><h2 id="1-找到自己hexo博客主文件夹"><a href="#1-找到自己hexo博客主文件夹" class="headerlink" title="1. 找到自己hexo博客主文件夹"></a>1. 找到自己hexo博客主文件夹</h2><p>我的是在 D:\blog</p><p><img src= "/img/loading.gif" data-src="/images/hexo2.png" alt="hexo2"></p><p>进入 system 窗口</p><p><img src= "/img/loading.gif" data-src="/images/hexo3.jpg" alt="hexo3"></p><h2 id="2-主题下载"><a href="#2-主题下载" class="headerlink" title="2. 主题下载"></a>2. 主题下载</h2><p>可以从hexo官网下载： <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p><p>随意演示一个主题的克隆命令</p><p><code>git clone -b master https://github.com/removeif/hexo-theme-amazing.git themes/amazing</code></p><p><strong>themes/ 后的文件名尽量跟主题名一致，方便分别。</strong></p><p>找到想要的主题后将命令输入到 system 窗口，然后执行。</p><p><img src= "/img/loading.gif" data-src="/images/hexo4.jpg" alt="hexo4"></p><p>下载成功后会在自己的hexo主文件夹里的themes文件夹里有一个amazing文件夹，这就是克隆下来的主题文件。</p><p><img src= "/img/loading.gif" data-src="/images/hexo5.jpg" alt="hexo5"></p><h2 id="3-更换主题"><a href="#3-更换主题" class="headerlink" title="3. 更换主题"></a>3. 更换主题</h2><p>打开自己的hexo主文件夹里的_config.yml文件，找到theme: landscape (landscape 是默认主题)。然后改成 theme: amazing (自己主题的文件夹名字)。</p><p><img src= "/img/loading.gif" data-src="/images/hexo6.jpg" alt="hexo6"></p><p>回到 system 窗口按顺序输入并执行以下命令 </p><p>清除缓存 <code>hexo clean</code></p><p>生成静态文件 <code>hexo g</code></p><p>启动hexo <code>hexo s</code></p><p>最后三句命令可能会出现下面错误</p><p><img src= "/img/loading.gif" data-src="/images/hexo7.jpg" alt="hexo7"></p><p>执行完三句命令</p><p><img src= "/img/loading.gif" data-src="/images/hexo8.jpg" alt="hexo8"></p><h2 id="4-简单修改个人信息"><a href="#4-简单修改个人信息" class="headerlink" title="4. 简单修改个人信息"></a>4. 简单修改个人信息</h2><p>找到自己克隆的主题文件夹下的_config.yml文件。然后打开。找到里面的 title: xxxx (头)，author: xxx (作者) 修改即可。当然也有一些要自己修改主页连接的(utl: <a href="https://xxx.github.io/" target="_blank" rel="noopener">https://xxx.github.io/</a> ，改成自己的主页连接即可)</p><p><img src= "/img/loading.gif" data-src="/images/hexo9.jpg" alt="hexo9"></p><p>大概就这样。<br>完工！！！</p>]]></content>
     
@@ -37,29 +37,6 @@
     
     
       <category term="hexo" scheme="https://pmsrookie.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>firstBlog</title>
-    <link href="https://pmsrookie.github.io/2020/06/28/firstBlog/"/>
-    <id>https://pmsrookie.github.io/2020/06/28/firstBlog/</id>
-    <published>2020-06-28T14:34:14.000Z</published>
-    <updated>2020-06-28T14:56:11.213Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h3><p>内容</p><h2 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h2><p>内容</p><h1 id="标题3"><a href="#标题3" class="headerlink" title="标题3"></a>标题3</h1><p>内容</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;标题1&quot;&gt;&lt;a href=&quot;#标题1&quot; class=&quot;headerlink&quot; title=&quot;标题1&quot;&gt;&lt;/a&gt;标题1&lt;/h3&gt;&lt;p&gt;内容&lt;/p&gt;
-&lt;h2 id=&quot;标题2&quot;&gt;&lt;a href=&quot;#标题2&quot; class=&quot;headerlink&quot; title=&quot;标题2&quot;&gt;
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
