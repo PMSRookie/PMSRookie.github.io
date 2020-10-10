@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pmsrookie.github.io/2020/09/05/MybatisPlus/</loc>
+    
+    <lastmod>2020-09-11T11:54:03.523Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://pmsrookie.github.io/2020/07/15/Java%E5%9F%BA%E7%A1%80-%E9%AB%98%E7%BA%A7/</loc>
     
-    <lastmod>2020-08-30T02:35:52.152Z</lastmod>
+    <lastmod>2020-09-07T06:06:00.039Z</lastmod>
     
   </url>
   
@@ -16,30 +23,9 @@
   </url>
   
   <url>
-    <loc>https://pmsrookie.github.io/2020/08/21/docker/</loc>
-    
-    <lastmod>2020-08-21T09:37:05.979Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://pmsrookie.github.io/2020/08/21/redis/</loc>
-    
-    <lastmod>2020-08-21T09:36:55.656Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://pmsrookie.github.io/2020/08/18/RabbitMQ/</loc>
     
     <lastmod>2020-08-19T16:27:49.374Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://pmsrookie.github.io/2020/07/19/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</loc>
-    
-    <lastmod>2020-07-19T14:56:20.738Z</lastmod>
     
   </url>
   
